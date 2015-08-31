@@ -25,8 +25,8 @@ default['r']['install_method'] = 'package'
 default['r']['install_repo']   = true
 
 # if install via source then these are needed
-default['r']['version']        = '3.0.3'
-default['r']['checksum']       = 'b97cfd9540f294ab786e846153f3dd8605610d7e27616bfb4296795bc4fde6d6'
+default['r']['version']        = '3.2.2'
+default['r']['checksum']       = 'c40091d8f882f03f5e406caa5e43ce2650f2dd6a044b9769dec2914409e8802c'
 default['r']['config_opts']    = [ "--with-x=no" ]
 
 default['r']['install_dev'] = true
